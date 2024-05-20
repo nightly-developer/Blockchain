@@ -1,0 +1,31 @@
+
+MetaMask:k7r*KC2CdW
+Recovery Key: steel tomato alone music prison film kangaroo cheap key puzzle chimney power
+
+smart contracts are self executing sets of instructions, without 3rd parties. They are written in codes
+ethirium is not just assets it also use for building utilies like apps, network
+oracles devices that ate use for bringin real data in for building smart contracts
+bloackchain are decentralise hence data should also need to be colected in decentralise way
+the smart contracts that interlink decentralise blackchain and offset devices are colled hybrid smart contracts
+Features of smart contracts:
+1.Decentralized 
+2.Transparency & Flexibility
+3.Speed & Efficiency
+4.Secutiy & Immutability
+5.Removal of counterpartyrisk
+6.Trust minimized Agreements
+--summary 00:20:23
+DOOs - Decentralized Autonomuos Organisations
+Faucet: is an application that gives us free test tokens, like free test Rinkeby Ethereum
+
+steps to deploy smart contract
+step1: license	// SPDX-License-Identifier: MIT
+step2: compiler version	pragma solidity ^0.8.0;
+step3: name contract like a class
+define functions in contract
+--Recape 2:08:30
+
+deploying contract from contract without inheritance
+--||-- with inheritance
+interacting with contract outside of contract
+--Recape 2:26:00

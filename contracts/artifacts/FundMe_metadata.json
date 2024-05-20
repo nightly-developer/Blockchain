@@ -1,0 +1,125 @@
+{
+	"compiler": {
+		"version": "0.8.6+commit.11564f7e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "addressToAmountFunded",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "ethAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "getPriceInUSD",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVersion",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_ETHPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"bloackchain/contracts/FundMe.sol": "FundMe"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"bloackchain/contracts/AggregatorV4Interface.sol": {
+			"keccak256": "0x57ef29d92ceba708f001ab775b431f73727c5df7fd4c4aa8a25b5e3e5cafe6c9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7dfe8a5498e714de79fefae3ef1d8ab6118751e65efc3475b78e2324c0f0baed",
+				"dweb:/ipfs/QmSfp5rTwu6xsTFxRHsr2UxLazR7S4zEgGJg7k7aXR6tK7"
+			]
+		},
+		"bloackchain/contracts/FundMe.sol": {
+			"keccak256": "0xa52d9fd8a9e8b4fcd1c30039439ddfaf161fb18fec7561080efc8408a1ec6fe7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://528706dfbe78580d6657d21637b6856e77d55eab792a6561c991eaa5ea98e84a",
+				"dweb:/ipfs/QmNZhfyARkCh5iZYephi57L2xZUobjcJd4Q32vRm158C2J"
+			]
+		}
+	},
+	"version": 1
+}
